@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5478059261938804653
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1024771953095400, guid: 5cd03288437cf6041923d73902b1c69e, type: 3}
+      propertyPath: m_Name
+      value: Stone_Tablet1_Bridge_Sign
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564823314659458, guid: 5cd03288437cf6041923d73902b1c69e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 917.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564823314659458, guid: 5cd03288437cf6041923d73902b1c69e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564823314659458, guid: 5cd03288437cf6041923d73902b1c69e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1148.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564823314659458, guid: 5cd03288437cf6041923d73902b1c69e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.6532815
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564823314659458, guid: 5cd03288437cf6041923d73902b1c69e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.27059805
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564823314659458, guid: 5cd03288437cf6041923d73902b1c69e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.27059802
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564823314659458, guid: 5cd03288437cf6041923d73902b1c69e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6532815
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564823314659458, guid: 5cd03288437cf6041923d73902b1c69e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564823314659458, guid: 5cd03288437cf6041923d73902b1c69e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564823314659458, guid: 5cd03288437cf6041923d73902b1c69e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564823314659458, guid: 5cd03288437cf6041923d73902b1c69e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564823314659458, guid: 5cd03288437cf6041923d73902b1c69e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.0000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564823314659458, guid: 5cd03288437cf6041923d73902b1c69e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913967917, guid: 5cd03288437cf6041923d73902b1c69e, type: 3}
+      propertyPath: m_Text
+      value: "Bridge currently \nundergoing maintenance...\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114481970893037048, guid: 5cd03288437cf6041923d73902b1c69e,
+        type: 3}
+      propertyPath: resourcePathway
+      value: Enviro/FinalPrefab/SmallObj/Stone_Tablet1_Bridge_Sign
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5cd03288437cf6041923d73902b1c69e, type: 3}

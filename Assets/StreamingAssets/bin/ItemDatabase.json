@@ -1,0 +1,337 @@
+[
+    {
+        "Name": "Rock",
+        "Value": 1,
+        "Price": 3,
+        "MaxStackSize": 100,
+        "Description": "It's just a rock. Not much to say really...",
+        "Slug": "rock",
+        "EquipTag": "offhand"
+    },
+    {
+        "Name": "Brick",
+        "Value": 10,
+        "Price": 20,
+        "MaxStackSize": 10,
+        "Description": "Bricks are useful when building solid structures.",
+        "Slug": "Ruin Stone_02",
+        "EquipTag": "offhand"
+    },
+    {
+        "Name": "Fur",
+        "Value": 15,
+        "Price": 30,
+        "MaxStackSize": 10,
+        "Description": "Good for clothing. Dropped by wolves",
+        "Slug": "fox-tail_03",
+        "EquipTag": "none"
+    },
+    {
+        "Name": "Meat",
+        "Value": 15,
+        "Price": 30,
+        "MaxStackSize": 20,
+        "Description": "Its one letter away from EAT.",
+        "Slug": "Meat",
+        "EquipTag": "none"
+    },
+    {
+        "Name": "Torch",
+        "Value": 15,
+        "Price": 30,
+        "MaxStackSize": 1,
+        "Description": "A source of light and warmth.",
+        "Slug": "Torch",
+        "EquipTag": "offhand"
+    },
+    {
+        "Name": "Jewelry",
+        "Value": 100,
+        "Price": 250,
+        "MaxStackSize": 1,
+        "Description": "Its so shiny.",
+        "Slug": "Necklace_02",
+        "EquipTag": "gauntlets",
+        "ied": {
+            "EquipmentTypeString": "Armor"
+        }
+    },
+    {
+        "Name": "Dragon Hide",
+        "Value": 15,
+        "Price": 30,
+        "MaxStackSize": 20,
+        "Description": "Good for fire proof clothes.",
+        "Slug": "Cloak_03",
+        "EquipTag": "none"
+    },
+    {
+        "Name": "Large Dragon Hide",
+        "Value": 30,
+        "Price": 50,
+        "MaxStackSize": 1,
+        "Description": "Comes from a large dragon. Good for fire proof clothes.",
+        "Slug": "Cloak_02",
+        "EquipTag": "none"
+    },
+    {
+        "Name": "Peasants Shirt",
+        "Value": 2,
+        "Price": 5,
+        "MaxStackSize": 1,
+        "Description": "Basic clothing.",
+        "Slug": "Shirt_00",
+        "EquipTag": "robe",
+        "ied": {
+            "EquipmentTypeString": "Armor",
+            "ElementStrings": {
+                "neutral": "1"
+            }
+        }
+    },
+    {
+        "Name": "Fur Robe",
+        "Value": 5,
+        "Price": 10,
+        "MaxStackSize": 1,
+        "Description": "Great for warmth and increases your vitality",
+        "Slug": "fur-shirt01",
+        "EquipTag": "robe",
+        "ied": {
+            "EquipmentTypeString": "Armor",
+            "ElementStrings": {
+                "neutral": "1"
+            },
+            "MaxHealthIncrease": 10,
+            "HealthRegenIncrease": 1
+        }
+    },
+    {
+        "Name": "Fur Hat",
+        "Value": 10,
+        "Price": 20,
+        "MaxStackSize": 1,
+        "Description": "Great for warmth and increases your vitality. It's also a really nice hat",
+        "Slug": "Plain_Hood", //find new
+        "EquipTag": "hat",
+        "ied": {
+            "EquipmentTypeString": "Armor",
+            "ElementStrings": {
+                "neutral": "1"
+            },
+            "MaxHealthIncrease": 15,
+            "HealthRegenIncrease": 2
+        }
+    },
+    {
+        "Name": "Peasants Hood",
+        "Value": 10,
+        "Price": 20,
+        "MaxStackSize": 1,
+        "Description": "Not much but at least it'll cover your head",
+        "Slug": "Plain_Hood2", //find new
+        "EquipTag": "hat",
+        "ied": {
+            "EquipmentTypeString": "Armor",
+            "ElementStrings": {
+                "neutral": "1"
+            }
+        }
+    },
+    {
+        "Name": "Peasants Leggings",
+        "Value": 2,
+        "Price": 5,
+        "MaxStackSize": 1,
+        "Description": "It's not much but at least it prevents public indecency.",
+        "Slug": "Plain_Boots",
+        "EquipTag": "leggings",
+        "ied": {
+            "EquipmentTypeString": "Armor",
+            "ElementStrings": {
+                "neutral": "1"
+            }
+        }
+    },
+    {
+        "Name": "Dragon Hide Pants",
+        "Value": 7,
+        "Price": 15,
+        "MaxStackSize": 1,
+        "Description": "No more liar, liar pants on fire.",
+        "Slug": "Leather_Pants", //find new
+        "EquipTag": "leggings",
+        "ied": {
+            "EquipmentTypeString": "Armor",
+            "ElementStrings": {
+                "fire": "4",
+                "neutral": "4"
+            }
+        }
+    },
+    {
+        "Name": "Leather Shirt",
+        "Value": 7,
+        "Price": 15,
+        "MaxStackSize": 1,
+        "Description": "Made of leather, provides a little protection.",
+        "Slug": "Leather_Armor",
+        "EquipTag": "robe",
+        "ied": {
+            "EquipmentTypeString": "Armor",
+            "ElementStrings": {
+                "neutral": "2"
+            }
+        }
+    },
+    {
+        "Name": "Sword",
+        "Value": 40,
+        "Price": 75,
+        "MaxStackSize": 1,
+        "Description": "A sharp weapon, perfect for attacking monsters.",
+        "Slug": "metal sword",
+        "EquipTag": "staff",
+        "ied": {
+            "EquipmentTypeString": "Weapon",
+            "ElementStrings": {
+                "fire": "1.5",
+                "neutral": "1.5",
+                "water": "1.5",
+                "earth": "1.5",
+                "air": "1.5",
+                "life": "1.5",
+                "death": "1.5"
+            },
+            "CastSpeedString": "-3"
+        }
+        
+    },
+    {
+        "Name": "Cantis Gem",
+        "Value": 2000,
+        "Price": 2500,
+        "MaxStackSize": 1,
+        "Description": "A rare gem that can utilize the mana in the suroundings and turn it into magic.",
+        "Slug": "Ruin Stone_01",
+        "EquipTag": "cantis",
+        "ied": {
+            "EquipmentTypeString": "Weapon",
+            "ElementStrings": {
+                "fire": ".5",
+                "neutral": ".5",
+                "water": ".5",
+                "earth": ".5",
+                "air": ".5",
+                "life": ".5",
+                "death": ".5"
+            },
+            "MaxManaIncrease" :10 
+        }
+    },
+    {
+        "Name": "Empty Cantis",
+        "Value": 500,
+        "Price": 1500,
+        "MaxStackSize": 1,
+        "Description": "An empty shell of what it once was.",
+        "Slug": "Ruin Stone_02",
+        "EquipTag": "cantis",
+        "ied": {
+            "EquipmentTypeString": "Weapon",
+            "ElementStrings": {
+                "fire": "1",
+                "neutral": "1",
+                "water": "1",
+                "earth": "1",
+                "air": "1",
+                "life": "1",
+                "death": "1"
+            },
+            "MaxManaIncrease" :5,
+            "ManaRegenIncrease": 1
+        }
+    },
+    {
+        "Name": "Wood",
+        "Value": 2,
+        "Price": 4,
+        "MaxStackSize": 100,
+        "Description": "Useful for building material.",
+        "Slug": "Wood_00",
+        "EquipTag": "none"
+    },
+    {
+        "Name": "Basic Staff",
+        "Value": 10,
+        "Price": 15,
+        "MaxStackSize": 1,
+        "Description": "Not much but its capable of casting magic.",
+        "Slug": "Staff1",
+        "EquipTag": "staff",
+        "ied": {
+            "EquipmentTypeString": "Weapon",
+            "ElementStrings": {
+                "fire": "1",
+                "neutral": "1",
+                "water": "1",
+                "earth": "1",
+                "air": "1",
+                "life": "1",
+                "death": "1"
+            },
+            "CastSpeedString": "3",
+            "MaxManaIncrease" : 30,
+            "ManaRegenIncrease": 3
+        }
+    },
+    {
+        "Name": "Novice Staff",
+        "Value": 50,
+        "Price": 75,
+        "MaxStackSize": 1,
+        "Description": "Something to wield cantis with.",
+        "Slug": "Staff2",
+        "EquipTag": "staff",
+        "ied": {
+            "EquipmentTypeString": "Weapon",
+            "ElementStrings": {
+                "fire": ".75",
+                "neutral": ".75",
+                "water": ".75",
+                "earth": ".75",
+                "air": ".75",
+                "life": ".75",
+                "death": ".75"
+            },
+            "CastSpeedString": "3.5",
+            "MaxManaIncrease" : 50,
+            "ManaRegenIncrease": 5
+        }
+    },
+    {
+        "Name": "Uncharged Staff",
+        "Value": 15,
+        "Price": 50,
+        "MaxStackSize": 1,
+        "Description": "Would be a good magic staff if it could work",
+        "Slug": "Staff2dead",
+        "EquipTag": "none",
+        "ied": {
+            "EquipmentTypeString": "Weapon",
+            "ElementStrings": {
+                "fire": ".9",
+                "neutral": ".9",
+                "water": ".9",
+                "earth": ".9",
+                "air": ".9",
+                "life": ".9",
+                "death": ".9"
+            },
+            "CastSpeedString": "3.5",
+            "MaxManaIncrease" : 50,
+            "ManaRegenIncrease": 5
+        }
+    }
+    
+]
